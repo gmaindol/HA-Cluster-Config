@@ -1,0 +1,5 @@
+<ha4>
+      <ip-address>{{ha4-ip-address}}</ip-address>
+      <netmask>{{ha4-netmask}}</netmask>
+      <port>{{ha4-ethernet-interface}}</port>
+    </ha4>

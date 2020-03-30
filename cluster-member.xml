@@ -1,0 +1,12 @@
+<cluster>
+      <enabled>yes</enabled>
+      <cluster-id>{{cluster-id}}</cluster-id>
+      <description>{{ha-cluster-description}}</description>
+      <cluster-members>
+        <entry name={{serial-number}}>
+          <ha4-ip-address>{{ha4-ip-address}}</ha4-ip-address>
+          <session-synchronization>enabled</session-synchronization>
+          <ha4-backup-ip-address>{{ha4-backup-ip-address}}</ha4-backup-ip-address>
+        </entry>
+      </cluster-members>
+    </cluster>
