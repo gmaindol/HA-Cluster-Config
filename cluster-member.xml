@@ -1,7 +1,7 @@
 <cluster>
         <enabled>yes</enabled>
         <cluster-members>
-          <entry name="{{serial-number}}">
+          <entry name="{{ serial-number }}">
             <ha4-ip-address>{{ha4-ip-address}}</ha4-ip-address>
             <ha4-backup-ip-address>{{ha4-backup-ip-address}}</ha4-backup-ip-address>
             <session-synchronization>enabled</session-synchronization>
