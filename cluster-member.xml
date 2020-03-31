@@ -1,3 +1,4 @@
+<high-availability>
 <cluster>
         <enabled>yes</enabled>
         <cluster-members>
@@ -22,3 +23,4 @@
           <netmask>{{ ha4-backup-netmask }}</netmask>
         </ha4-backup>
       </interface>
+<high-availability>
