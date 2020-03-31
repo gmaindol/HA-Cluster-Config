@@ -4,7 +4,7 @@
           <ha/>
         </entry>
 </entry>
-        <entry name="{{ha4-backup-ethernet-interface}}">
+        <entry name="{{ha4-backup-ethernet-interfac}}">
           <link-state>up</link-state>
           <ha/>
         </entry>

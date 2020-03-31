@@ -59,7 +59,7 @@ variables:
     description: interface configured as an HA interface for the HA4 link
     default: ethernet1/1
     type_hint: ethernet1/1 
-  - name: ha4-backup-ethernet-interface
+  - name: ha4-backup-ethernet-interfac
     description: interface configured as an HA interface for the HA4-backup link
     default: ethernet1/2
     type_hint: ethernet1/2
