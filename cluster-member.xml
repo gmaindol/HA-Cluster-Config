@@ -1,4 +1,4 @@
-<cluster>
+
       <enabled>yes</enabled>
       <cluster-id>{{cluster-id}}</cluster-id>
       <description>{{ha-cluster-description}}</description>
@@ -9,4 +9,3 @@
           <ha4-backup-ip-address>{{ha4-backup-ip-address}}</ha4-backup-ip-address>
         </entry>
       </cluster-members>
-    </cluster>
