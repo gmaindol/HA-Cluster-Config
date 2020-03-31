@@ -1,11 +1,24 @@
-
-      <enabled>yes</enabled>
-      <cluster-id>{{cluster-id}}</cluster-id>
-      <description>{{ha-cluster-description}}</description>
-      <cluster-members>
-        <entry name={{serial-number}}>
-          <ha4-ip-address>{{ha4-ip-address}}</ha4-ip-address>
-          <session-synchronization>enabled</session-synchronization>
-          <ha4-backup-ip-address>{{ha4-backup-ip-address}}</ha4-backup-ip-address>
-        </entry>
-      </cluster-members>
+<cluster>
+        <enabled>yes</enabled>
+        <cluster-members>
+          <entry name="{{serial-number}}">
+            <ha4-ip-address>{{ha4-ip-address}}</ha4-ip-address>
+            <ha4-backup-ip-address>{{ha4-backup-ip-address}}</ha4-backup-ip-address>
+            <session-synchronization>enabled</session-synchronization>
+          </entry>
+        </cluster-members>
+        <cluster-id>{{cluster-id}}</cluster-id>
+        <description>{{ha-cluster-description}}</description>
+      </cluster>
+      <interface>
+        <ha4>
+          <port>{{ha4-ethernet-interface}}</port>
+          <ip-address>{{ha4-ip-address}}</ip-address>
+          <netmask>{{ha4-netmask}}</netmask>
+        </ha4>
+        <ha4-backup>
+          <port>{{ha4-backup-ethernet-interface}}</port>
+          <ip-address>{{ha4-backup-ip-address}}</ip-address>
+          <netmask>{{ha4-backup-netmask}}</netmask>
+        </ha4-backup>
+      </interface>
