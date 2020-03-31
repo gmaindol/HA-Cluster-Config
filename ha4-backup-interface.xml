@@ -1,5 +1,5 @@
 <ha4-backup>
-      <port>{{ha4-backup-ethernet-interface}}</port>
+      <port>{{ha4-backup-ethernet-interfac}}</port>
       <ip-address>{{ha4-backup-ip-address}}</ip-address>
       <netmask>{{ha4-backup-netmask}}</netmask>
     </ha4-backup>
