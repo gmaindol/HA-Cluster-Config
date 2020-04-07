@@ -28,7 +28,7 @@ labels:
 # type_hints examples include text, ip_address, or dropdown
 variables:
   - name: device
-    description: Device Serial Number.
+    description: Device Serial Number of Peer Device
     default: 0000000000
     type_hint: 
   - name: ha4ipaddress
@@ -36,7 +36,7 @@ variables:
     default: 255.255.255.255
     type_hint: IPv4/IPv6
   - name: ha4netmask
-    description: netmask of the local HA4 interface
+    description: Netmask of the local HA4 interface
     default: 255.255.255.255
     type_hint: subnet mask
   - name: ha4backupipaddress
@@ -44,15 +44,15 @@ variables:
     default: 255.255.255.255
     type_hint: IPv4/IPv6
   - name: ha4backupnetmask
-    description: netmask of the local ha4-backup interface
+    description: Netmask of the local ha4-backup interface
     default: 255.255.255.255
     type_hint: subnet mask
   - name: ha4_ethernet_interface
-    description: interface configured as an HA interface for the HA4 link
+    description: HA ethernet interface for the HA4 link
     default: ethernet1/3
     type_hint: ethernet1/1 
   - name: ha4_backup_ethernet_interface
-    description: interface configured as an HA interface for the HA4-backup link
+    description: HA ethernet interface for the HA4-backup link
     default: ethernet1/3
     type_hint: ethernet1/2
   - name: cluster_id
@@ -60,7 +60,7 @@ variables:
     default: 0-99
     type_hint: 99
   - name: ha_cluster_description
-    description: Cluster-description
+    description: Cluster Description
     default: HA-Cluster
     type_hint: HA-Cluster
   - name: ha_comments
